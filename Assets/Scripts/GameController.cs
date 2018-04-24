@@ -28,13 +28,11 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //Detectar si se quiere empezar el juego
         if (gameState == GameStates.Idle && (Input.GetKeyDown("space"))) {
             gameState = GameStates.Playing;
             uiIdle.SetActive(false);
             birdsGenerator.SendMessage("StartGenerator");
             doggoGenerator.SendMessage("StartGenerator");
-            
             canvas.SetActive(true);
         }
         else if (gameState == GameStates.Playing) {

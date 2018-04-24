@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50972131647719458}
   - component: {fileID: 58129745655962688}
   - component: {fileID: 114809716557848500}
+  - component: {fileID: 114959870329071488}
   m_Layer: 0
   m_Name: Owl
   m_TagString: Birds
@@ -87,6 +88,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f89c07cd230c50b4b8f7404d2176fd18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 2
+--- !u!114 &114959870329071488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371387095075330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3640598571833884689f1b3707358414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 2

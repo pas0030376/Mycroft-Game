@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50059977641906880}
   - component: {fileID: 58397857094151096}
   - component: {fileID: 114730268097688390}
+  - component: {fileID: 114873965147322722}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Birds
@@ -90,6 +91,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 5
+--- !u!114 &114873965147322722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212065590948288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d0568206d2bcb44a42f12c8c7238f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 2
 --- !u!212 &212426205099608770
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50122699291834796}
   - component: {fileID: 58411392491533416}
   - component: {fileID: 114942371214370688}
+  - component: {fileID: 114225397426150090}
   m_Layer: 0
   m_Name: Blue Bird
   m_TagString: Birds
@@ -78,6 +79,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -1.6}
   serializedVersion: 2
   m_Radius: 4.96
+--- !u!114 &114225397426150090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982151478176814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36242ff9dbf34b4b8c02c9b4651e61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 2
 --- !u!114 &114942371214370688
 MonoBehaviour:
   m_ObjectHideFlags: 1

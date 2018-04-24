@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50114291562672910}
   - component: {fileID: 58913960356724834}
   - component: {fileID: 114321424077319842}
+  - component: {fileID: 114097101436656802}
   m_Layer: 0
   m_Name: Eagle
   m_TagString: Birds
@@ -78,6 +79,18 @@ CircleCollider2D:
   m_Offset: {x: -0.0000038146973, y: -2.46}
   serializedVersion: 2
   m_Radius: 4.96
+--- !u!114 &114097101436656802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541561333312908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1263c6e0372e98d4985e6726740bbd05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 4
 --- !u!114 &114321424077319842
 MonoBehaviour:
   m_ObjectHideFlags: 1

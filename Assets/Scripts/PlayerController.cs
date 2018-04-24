@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
 
     void FixedUpdate () {
         inputX = Input.GetAxis("Horizontal");
-       
+        //UpdateState("CatRunning");
         if (Input.GetKey(KeyCode.RightArrow) ) {
             UpdateState("CatRunning");
             moveX = transform.position.x + (inputX * velX);
