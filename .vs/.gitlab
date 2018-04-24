@@ -1,0 +1,12 @@
+{
+  "User": {
+    "Id": 736354,
+    "Username": "pas0030376",
+    "Name": "Victoria",
+    "Email": "pas0030376@iespoblenou.org",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/3298ac8a224d6862c0540b93cfa31f9b?s=80&d=identicon",
+    "PrivateToken": "xsjhfJBGYboBjkE18oEz",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false
+  }
+}
